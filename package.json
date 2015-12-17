@@ -1,0 +1,23 @@
+{
+  "name": "create-object-url",
+  "version": "1.0.0",
+  "description": "Normalize URL.createObjectURL, webkitURL.createObjectURL and don't crash older browsers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prinzhorn/create-object-url.git"
+  },
+  "keywords": [
+    "createObjectURL",
+    "revokeObjectURL"
+  ],
+  "author": "Alexander Prinzhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Prinzhorn/create-object-url/issues"
+  },
+  "homepage": "https://github.com/Prinzhorn/create-object-url#readme"
+}
