@@ -1,9 +1,9 @@
 var createObjectURL;
 
 if(self.URL) {
-	createObjectURL = URL.createObjectURL;
+	createObjectURL = URL.createObjectURL.bind(URL);
 } else if(self.webkitURL) {
-	createObjectURL = webkitURL.createObjectURL;
+	createObjectURL = webkitURL.createObjectURL.bind(webkitURL);
 } else {
 	createObjectURL = function() {
 		return '';
