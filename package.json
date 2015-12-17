@@ -1,6 +1,6 @@
 {
   "name": "create-object-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Normalize URL.createObjectURL, webkitURL.createObjectURL and don't crash older browsers",
   "main": "index.js",
   "scripts": {
